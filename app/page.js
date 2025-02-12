@@ -25,11 +25,7 @@ export default function CVPage() {
       <h1 className="text-4xl font-bold mb-6 text-center text-indigo-800">CV Online</h1>
       <div className="w-full max-w-2xl bg-white p-6 rounded-2xl shadow-lg space-y-6">
         {/* Gambar profil dengan path yang benar */}
-        <img
-          src="/profil.jpeg" // Pastikan gambar profil berada di folder public
-          alt="Profile"
-          className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-indigo-600 shadow-md"
-        />
+<img src="/profil.jpeg" alt="Profile" />
 
         {/* Menampilkan setiap bagian */}
         {sections.map((section) => (
